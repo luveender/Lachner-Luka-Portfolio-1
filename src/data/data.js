@@ -1,13 +1,13 @@
 // CUSTOMIZE THIS FILE TO ADD YOUR OWN DATA
 
 const data = {
-    name: "John Doe",
-    bio: "Undergraduate Architectural Student at University of Calgary passionate about building tools to make homes more affordable.",
+    name: "Luka Lachner",
+    bio: "Bachelor of Design and City Innovation Student at University of Calgary looking to utilize and integrate ecological systems with the built environment.",
     contact: {
-        email: "john.doe@gmail.com",
-        phone: "+12345678910",
-        linkedin: "https://www.linkedin.com/",
-        github: "https://www.github.com/",
+        email: "luka.lachner@ucalgary.ca",
+        phone: "403-213-5367",
+        linkedin: "https://www.linkedin.com/in/luka-lachner-59b1602b2/",
+        github: "https://github.com/luveender",
     }
 }
 

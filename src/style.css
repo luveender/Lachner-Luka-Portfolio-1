@@ -1,10 +1,10 @@
 :root {
   /* Global font, line-height, and colors */
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Menlo', 'Courier New', Courier, monospace;
   line-height: 1.5;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #000000;
 }
 
 * {
@@ -44,13 +44,13 @@
 
 a {
   /* Link styling */
-  color: #8da3eb;
+  color: #e4c5f7;
   text-decoration: none;
 }
 
 a:hover {
   /* Link hover effects */
-  color: #4c6aca;
+  color: #90509f;
   text-decoration: underline;
   transition: 0.2s;
 }
@@ -66,7 +66,8 @@ a:hover {
 
 h1 {
   /* Heading font size */
-  font-size: 2.5em;
+  font-family: monospace, monospace;
+  font-size: 3.5em;
 }
 
 #projects {
