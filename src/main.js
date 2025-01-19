@@ -39,16 +39,16 @@ document.querySelector("#app").innerHTML = `
         </div>
         <div id="images-description">
           <div id="images">
-            <a href="https://example.com/page1" target="_blank">
+            <a href="https://lachner-luka-portfolio-1.vercel.app/page2" target="_blank">
               <img src="./cubeDrawings/cube1.webp" alt="cube1" />
             </a>
-            <a href="https://example.com/page2" target="_blank">
+            <a href="https://example.com/page3" target="_blank">
               <img src="./cubeDrawings/cube2.webp" alt="cube2" />
             </a>
-            <a href="https://example.com/page3" target="_blank">
+            <a href="https://example.com/page4" target="_blank">
               <img src="./cubeDrawings/cube3.webp" alt="cube3" />
             </a>
-            <a href="https://example.com/page4" target="_blank">
+            <a href="https://example.com/page5" target="_blank">
               <img src="./cubeDrawings/cube4.webp" alt="cube4" />
             </a>
           </div>
