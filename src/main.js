@@ -2,6 +2,13 @@ import "./style.css";
 import data from "./data/data";
 import { createThreeScene } from "./threeScene";
 
+const fall311 = [
+  "./fall311/statue1.png",
+  "./fall311/statue2.png",
+  "./fall311/statue3.png",
+  "./fall311/statue4.png",
+];
+
 const cubes = [
   "./cubeDrawings/cube1.webp",
   "./cubeDrawings/cube2.webp",
@@ -27,20 +34,26 @@ document.querySelector("#app").innerHTML = `
       <div id="project-row">
       Model 1
         <div class="three-model">
-          <div id="model1"></div>
+          <a href="https://example.com/page1" target="_blank">
+            <img src="./houseDrawings/house1.jpg" id="model1" alt="Model 1 Image"/>
         </div>
         <div id="images-description">
           <div id="images">
-            ${cubes
-              .map(
-                (cube, index) => `<img src="${cube}" alt="cube${index + 1}" />`
-              )
-              .join("")}
+            <a href="https://example.com/page1" target="_blank">
+              <img src="./cubeDrawings/cube1.webp" alt="cube1" />
+            </a>
+            <a href="https://example.com/page2" target="_blank">
+              <img src="./cubeDrawings/cube2.webp" alt="cube2" />
+            </a>
+            <a href="https://example.com/page3" target="_blank">
+              <img src="./cubeDrawings/cube3.webp" alt="cube3" />
+            </a>
+            <a href="https://example.com/page4" target="_blank">
+              <img src="./cubeDrawings/cube4.webp" alt="cube4" />
+            </a>
           </div>
-          <h4 id="description">A cubic 3D model is a geometric representation of a cube, consisting of six equal square faces joined at right angles. Each edge of the cube is of equal length, forming a symmetrical, rigid structure. The model can be textured, colored, or transparent, and it may include variations such as beveled edges or hollow interiors, depending on its intended purpose in design, animation, or engineering.</h4>
-        </div>
-      </div>
 
+      ${/*
       <div id="project-row">
       Model 2
         <div class="three-model">
@@ -76,6 +89,7 @@ document.querySelector("#app").innerHTML = `
         </div>
       </div>
     </section>
+    */""}
 
     <ul id="footer-items">
       <li>Email: ${data.contact.email}</li>
@@ -92,5 +106,5 @@ document.querySelector("#app").innerHTML = `
 
 // Create three.js scenes for each
 createThreeScene("#model1", "/3DModels/project1/cube.obj");
-createThreeScene("#model2", "/3DModels/project2/tree.obj");
-createThreeScene("#model3", "/3DModels/project3/cottage.obj");
+//createThreeScene("#model2", "/3DModels/project2/tree.obj");
+//createThreeScene("#model3", "/3DModels/project3/cottage.obj");
