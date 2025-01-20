@@ -32,24 +32,24 @@ document.querySelector("#app").innerHTML = `
 
     <section id="projects">
       <div id="project-row">
-      Model 1
+      REGROWTH:  Revitalization and Utilization of Art Nouveau into Ideals 
         <div class="three-model">
-          <a href="https://example.com/page1" target="_blank">
-            <img src="./houseDrawings/house1.jpg" id="model1" alt="Model 1 Image"/>
+          <a href="./A1/CadavreExquis1.png" target="_blank">
+            <img src="./A1/CadavreExquis1.png" id="model1" alt="CadavreExquis1 Image"/>
         </div>
         <div id="images-description">
           <div id="images">
-            <a href="https://lachner-luka-portfolio-1.vercel.app/page2" target="_blank">
-              <img src="./cubeDrawings/cube1.webp" alt="cube1" />
+            <a href="./A1/CadavreExquis2.png" target="_blank">
+              <img src="./A1/CadavreExquis2.png" alt="CadavreExquis2" />
             </a>
-            <a href="https://example.com/page3" target="_blank">
-              <img src="./cubeDrawings/cube2.webp" alt="cube2" />
+            <a href="./A1/CadavreExquis3.png" target="_blank">
+              <img src="./A1/CadavreExquis3.png" alt="CadavreExquis3" />
             </a>
-            <a href="https://example.com/page4" target="_blank">
-              <img src="./cubeDrawings/cube3.webp" alt="cube3" />
+            <a href="./A1/CadavreExquis4.png" target="_blank">
+              <img src="./A1/CadavreExquis4.png" alt="CadavreExquis4" />
             </a>
-            <a href="https://example.com/page5" target="_blank">
-              <img src="./cubeDrawings/cube4.webp" alt="cube4" />
+            <a href="./A1/CadavreExquis5.png" target="_blank">
+              <img src="./A1/CadavreExquis5.png" alt="CadavreExquis5" />
             </a>
           </div>
 
