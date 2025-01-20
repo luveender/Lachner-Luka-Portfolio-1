@@ -115,10 +115,9 @@ img {
 #images {
   /* Center image container */
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 17em;
-  margin-bottom: 1em;
+    justify-content: center;
+    align-items: flex-start;
+    height: 17em;
 }
 
 #images-row {
