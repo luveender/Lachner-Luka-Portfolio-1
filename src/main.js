@@ -42,16 +42,18 @@ document.querySelector("#app").innerHTML = `
             <a href="./A1/CadavreExquis2.png" target="_blank">
               <img src="./A1/CadavreExquis2.png" alt="CadavreExquis2" />
             </a>
-            <a href="./A1/CadavreExquis3.png" target="_blank">
-              <img src="./A1/CadavreExquis3.png" alt="CadavreExquis3" />
-            </a>
-            <a href="./A1/CadavreExquis4.png" target="_blank">
-              <img src="./A1/CadavreExquis4.png" alt="CadavreExquis4" />
-            </a>
-            <a href="./A1/CadavreExquis5.png" target="_blank">
-              <img src="./A1/CadavreExquis5.png" alt="CadavreExquis5" />
-            </a>
-          </div>
+              <a href="./A1/CadavreExquis4.pdf" target="_blank">
+                <img src="./A1/CadavreExquis4.png" alt="CadavreExquis4" />
+              </a>
+            </div>
+              <div id="images-description">
+                <div id="images">
+                  <a href="./A1/CadavreExquis3.png" target="_blank">
+                    <img src="./A1/CadavreExquis3.png" alt="CadavreExquis3" />
+                  </a>
+                  <a href="./A1/CadavreExquis5.pdf" target="_blank">
+                    <img src="./A1/CadavreExquis5.png" alt="CadavreExquis5" />
+                  </a>
 
       ${/*
       <div id="project-row">
