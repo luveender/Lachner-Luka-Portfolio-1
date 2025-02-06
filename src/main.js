@@ -57,7 +57,7 @@ document.querySelector("#app").innerHTML = `
               </div>
 
       <div id="project-row">
-      Project 2
+      INTEROP(ERABILITY)
         <div class="three-model">
           <div id="model1"></div>
         <div class="three-model">
@@ -120,6 +120,6 @@ document.querySelector("#app").innerHTML = `
 `;
 
 // Create three.js scenes for each
-createThreeScene("#model1", "/3DModels/project2/cube.obj"); 
+createThreeScene("#model1", "/3DModels/project1/cube.obj");
 createThreeScene("#model2", "/3DModels/project2/tree.obj");
 createThreeScene("#model3", "/3DModels/project3/cottage.obj");
