@@ -33,11 +33,10 @@ document.querySelector("#app").innerHTML = `
     <section id="projects">
       <div id="project-row">
       REGROWTH:  Revitalization and Utilization of Art Nouveau into Ideals 
-        <div class="three-model">
-          <a href="./A1/CadavreExquis1.png" target="_blank">
-            <img src="./A1/CadavreExquis1.png" id="model1" alt="CadavreExquis1 Image"/>
         </div>
-        <div id="images-description">
+          <div id="images-description">
+            <a href="./A1/CadavreExquis1.png" target="_blank">
+              <img src="./A1/CadavreExquis1.png" id="corpse" alt="CadavreExquis1 Image"/>
           <div id="images">
             <a href="./A1/CadavreExquis2.png" target="_blank">
               <img src="./A1/CadavreExquis2.png" alt="CadavreExquis2" />
@@ -54,6 +53,20 @@ document.querySelector("#app").innerHTML = `
                   <a href="./A1/CadavreExquis5.pdf" target="_blank">
                     <img src="./A1/CadavreExquis5.png" alt="CadavreExquis5" />
                   </a>
+                </div>
+              </div>
+
+      <div id="project-row">
+      Project 2
+        <div class="three-model">
+          <div id="model1"></div>
+        <div class="three-model">
+          <div id="model2"></div>
+        </div>
+          <div id="model3"></div>
+          </div>
+        </div>
+      </div>
 
       ${/*
       <div id="project-row">
@@ -107,6 +120,6 @@ document.querySelector("#app").innerHTML = `
 `;
 
 // Create three.js scenes for each
-createThreeScene("#model1", "/3DModels/project1/cube.obj");
-//createThreeScene("#model2", "/3DModels/project2/tree.obj");
-//createThreeScene("#model3", "/3DModels/project3/cottage.obj");
+createThreeScene("#model1", "/3DModels/project2/cube.obj"); 
+createThreeScene("#model2", "/3DModels/project2/tree.obj");
+createThreeScene("#model3", "/3DModels/project3/cottage.obj");

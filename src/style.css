@@ -84,6 +84,14 @@ h1 {
   display: flex;
   justify-content: center;
   padding-top: 1em;
+  margin: 1em;
+}
+
+#project-row-2 {
+  /* Row layout for projects */
+  display: flex;
+  justify-content: center;
+  padding-top: 1em;
   margin: 2em;
 }
 
@@ -97,13 +105,19 @@ h1 {
 #model1,
 #model2,
 #model3 {
-  height: 528px;
-  width: 816px;
+  height: 200px;
+  width: 200px;
   margin-right: 1em;
   margin-left: 1em;
   border: 1px solid #ccc;
 }
-
+#corpse {
+  height: 500px;
+  width: 800px;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+  border: 1px solid #ccc;
+}
 img {
   /* Image dimensions and margin */
   height: 176px;
